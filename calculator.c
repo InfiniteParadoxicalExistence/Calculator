@@ -4,7 +4,6 @@ int main() {
     char operator;
     double num1, num2, result;
 
-    // Display the calculator menu
     printf("Simple Calculator\n");
     printf("Select operation:\n");
     printf(" + for addition\n");
@@ -14,11 +13,9 @@ int main() {
     printf("Enter operator: ");
     scanf(" %c", &operator);  // Notice the space before %c to consume any leftover whitespace
 
-    // Get the numbers from the user
     printf("Enter two numbers:\n");
     scanf("%lf %lf", &num1, &num2);
 
-    // Perform the calculation based on the operator
     switch (operator) {
         case '+':
             result = num1 + num2;
