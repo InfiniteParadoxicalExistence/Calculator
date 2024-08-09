@@ -11,7 +11,7 @@ int main() {
     printf(" * for multiplication\n");
     printf(" / for division\n");
     printf("Enter operator: ");
-    scanf(" %c", &operator);  // Notice the space before %c to consume any leftover whitespace
+    scanf(" %c", &operator);
 
     printf("Enter two numbers:\n");
     scanf("%lf %lf", &num1, &num2);
